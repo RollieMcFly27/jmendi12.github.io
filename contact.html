@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en" data-bs-theme="light">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Julian Mendiola</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <header>
+    <nav class="navbar navbar-expand-lg bg-danger py-4">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">
+                <i class="bi bi-emoji-laughing"></i>
+                Buddy Icons!
+                <i class="bi bi-emoji-kiss"></i>
+            </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup"
+          aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+          <div class="navbar-nav ms-auto">
+            <a class="nav-link active" aria-current="page" href="#">Home</a>
+                  <a class="nav-link" href="/resume.html">Artwork</a>
+                  <a class="nav-link" href="/portfolio.html">Pixel Editor</a>
+                  <a class="nav-link" href="/contact.html">More Stuff</a>
+          </div>
+        </div>
+      </div>
+    </nav>
+  </header>
+  <main>
+    <section class="portfolio container  mx-auto">
+      <div class="row">
+        <div class="col col-md-10 col-lg-8 col-xl-7 mx-auto">
+          <h1 class="display-1 text-center mb-3"><i>Want to Submit?</i></h1>
+          <h3 class="display-4 text-center mb-5">To begin submitting, please enter your information below and describe your submission and we will reach back with you.</h3>
+          <h3 class="display-4 text-center mb-5"><b>This is not a request box.</b></h3>
+          <div class="row gx-5 justify-content-center">
+            <form class="d-flex flex-column gap-4">
+              <div class="form-floating">
+                <input id="name" class="form-control text-light" type="text" placeholder="Enter your name" required>
+                <label for="name"><span class="text-danger">*</span> Full Name</label>
+              </div>
+              <div class="form-floating">
+                <input id="email" class="form-control text-light" type="email" placeholder="Enter your email" required>
+                <label for="email"><span class="text-danger">*</span> Email</label>
+              </div>
+              <div class="form-floating">
+                <input id="phone" class="form-control text-light" type="tel" placeholder="Enter your Phone">
+                <label for="phone"><span class="text-danger">*</span>Username</label>
+              </div>
+              <div class="form-floating">
+                <textarea id="message" class="form-control text-light h-100" placeholder="Enter your Phone"></textarea>
+                <label for="message"><span class="text-danger">*</span>Submission Details</label>
+              </div>
+              <div class="text-muted small">
+                <span class="text-danger">*</span> Required Field
+              </div>
+              <button class="btn btn-primary btn-lg">Submit</button>
+            </form>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+  <footer class="bg-light-subtle">
+    <nav class="py-5 container">
+      <p class="text-center">Project for COSC 1315, Summer 2023</p>
+    </nav>
+  </footer>
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
+    integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.min.js"
+    integrity="sha384-fbbOQedDUMZZ5KreZpsbe1LCZPVmfTnH7ois6mU1QK+m14rQ1l2bGBq41eYeM/fS"
+    crossorigin="anonymous"></script>
+</body>
+
+</html>
